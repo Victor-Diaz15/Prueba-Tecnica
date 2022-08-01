@@ -1,0 +1,15 @@
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\bin\Debug\net5.0\Prueba_Tecnica.Core.Application.deps.json
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\bin\Debug\net5.0\Prueba_Tecnica.Core.Application.dll
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\bin\Debug\net5.0\ref\Prueba_Tecnica.Core.Application.dll
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\bin\Debug\net5.0\Prueba_Tecnica.Core.Application.pdb
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\bin\Debug\net5.0\Prueba_Tecnica.Core.Domain.dll
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\bin\Debug\net5.0\Prueba_Tecnica.Core.Domain.pdb
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\obj\Debug\net5.0\Prueba_Tecnica.Core.Application.csprojAssemblyReference.cache
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\obj\Debug\net5.0\Prueba_Tecnica.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\obj\Debug\net5.0\Prueba_Tecnica.Core.Application.AssemblyInfoInputs.cache
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\obj\Debug\net5.0\Prueba_Tecnica.Core.Application.AssemblyInfo.cs
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\obj\Debug\net5.0\Prueba_Tecnica.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\obj\Debug\net5.0\Prueba_Tecnica.Core.Application.csproj.CopyComplete
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\obj\Debug\net5.0\Prueba_Tecnica.Core.Application.dll
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\obj\Debug\net5.0\ref\Prueba_Tecnica.Core.Application.dll
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Application\obj\Debug\net5.0\Prueba_Tecnica.Core.Application.pdb
