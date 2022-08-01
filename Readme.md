@@ -11,6 +11,7 @@
 <hr></hr>
 <h2>Arquitectura</h2>
 <ul>
+  <li>MVC</li>
   <li>Onion Arquitecture</li>
   <li>Solid Principles</li>
 </ul>
