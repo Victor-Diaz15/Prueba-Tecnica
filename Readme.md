@@ -1,10 +1,10 @@
 # Prueba Tecnica
-<h3>Esto es para una prueba tecnica de Banreservas</h3>
+<h3>Esto es para una prueba tecníca de Banreservas</h3>
 <hr></hr>
 <h2>Tecnologias</h2>
 <ul>
-  <li>C# Asp.NetCore 5</li>
-  <li>EntityFramework 5</li>
+  <li>C# Asp.Net Core 5</li>
+  <li>Entity Framework 5</li>
   <li>SQL Server</li>
   <li>Auto Mapper</li>
 </ul>
@@ -12,15 +12,15 @@
 <h2>Arquitectura</h2>
 <ul>
   <li>MVC</li>
-  <li>Onion Arquitecture</li>
+  <li>Onion Architecture</li>
   <li>Solid Principles</li>
 </ul>
 <hr></hr>
 <h2>Patrones de diseño</h2>
 <ul>
-  <li>Patron Singleton</li>
-  <li>Patron Decorator</li>
-  <li>Injection de dependencia</li>
-  <li>Patron repositorio generico</li>
-  <li>Patron servicio generico</li>
+  <li>Patrón Singleton</li>
+  <li>Patrón Decorator</li>
+  <li>Inyección de dependencia</li>
+  <li>Patrón repositorio genérico</li>
+  <li>Patrón servicio genérico</li>
 </ul>
