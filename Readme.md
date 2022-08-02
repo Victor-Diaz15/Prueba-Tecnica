@@ -1,5 +1,5 @@
 # Prueba Técnica
-<h3>Esto es para una prueba técnica de Banreservas</h3>
+<h3>Esto es para una prueba técnica</h3>
 <hr></hr>
 <h2>Tecnologias</h2>
 <ul>
