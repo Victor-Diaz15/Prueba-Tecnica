@@ -27,58 +27,60 @@
                         <p>@Model.Error</p>
                     </div>
                 }
-                <form asp-controller="Home" asp-action=@(editMode ? "UpdateCandidate" : "SaveCandidate") method="post" class="row gap-3 my-3">
-                    <div class="text-center my-2">
-                        <h3 class="text-muted w-100">
-                            @(editMode ? $"Editar Candidato {Model.Nombres}" : "Crear Nuevo Candidato")
-                        </h3>
+                
+            <form asp-controller="Home" asp-action=@(editMode ? "UpdateCandidate" : "SaveCandidate") method="post" class="row gap-3 my-3">
+                <div class="text-center my-2">
+                    <h3 class="text-muted w-100">
+                        @(editMode ? $"Editar Candidato {Model.Nombres}" : "Crear Nuevo Candidato")
+                    </h3>
+                </div>
+                @Html.ValidationSummary(false, "", new { @class = "text-danger text-center" })
+                <section class="col-5 mx-auto mt-2">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Cedula" class="form-control" placeholder="Cedula" />
+                        <label asp-for="Cedula"> Cedula </label>
+                        @*<span asp-validation-for="Cedula" class="text-danger"></span>*@
                     </div>
-                    <section class="col-5 mx-auto mt-2">
-                        <div class="form-floating mb-3">
-                            <input asp-for="Cedula" class="form-control" placeholder="Cedula" />
-                            <label asp-for="Cedula"> Cedula </label>
-                            <span asp-validation-for="Cedula" class="text-danger"></span>
-                        </div>
 
-                        <div class="form-floating mb-3">
-                            <input asp-for="Nombres" class="form-control" placeholder="Nombres" />
-                            <label asp-for="Nombres"> Nombres </label>
-                            <span asp-validation-for="Nombres" class="text-danger"></span>
-                        </div>
-
-                        <div class="form-floating mb-3">
-                            <input asp-for="Apellidos" class="form-control" placeholder="Apellidos" />
-                            <label asp-for="Apellidos" class="form-label">Apellidos </label>
-                            <span asp-validation-for="Apellidos" class="text-danger"></span>
-                        </div>
-
-                    </section>
-                    <section class="col-5 mx-auto mt-2">
-
-                        <div class="form-floating mb-3">
-                            <input asp-for="FechaNacimiento" class="form-control" placeholder="Fecha de Nacimiento" />
-                            <label asp-for="FechaNacimiento" class="form-label">Fecha de Nacimiento </label>
-                            <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
-                        </div>
-                        
-                        <div class="form-floating mb-3">
-                            <input asp-for="TrabajoActual" class="form-control" placeholder="Trabajo Actual" />
-                            <label asp-for="TrabajoActual" class="form-label">Trabajo Actual </label>
-                        </div>
-
-                        <div class="form-floating mb-3">
-                            <input asp-for="ExpectativaSalarial" class="form-control" placeholder="Expectativa Salarial" />
-                            <label asp-for="ExpectativaSalarial" class="form-label"> Expectativa Salarial </label>
-                        </div>
-                    </section>
-
-                    <input type="hidden" asp-for="Id" name="Id" value="@Model.Id" />
-
-                    <div class="col-11 mx-auto">
-                        <button type="submit" class="btn btn-primary btn-lg w-100 mt-2">@(editMode ? "Editar" : "Guardar")</button>
-                        <a asp-controller="Home" asp-action="Index" class="btn btn-light w-100 mt-2">Volver atrás</a>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Nombres" class="form-control" placeholder="Nombres" />
+                        <label asp-for="Nombres"> Nombres </label>
+                        <span asp-validation-for="Nombres" class="text-danger"></span>
                     </div>
-                </form>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Apellidos" class="form-control" placeholder="Apellidos" />
+                        <label asp-for="Apellidos" class="form-label">Apellidos </label>
+                        <span asp-validation-for="Apellidos" class="text-danger"></span>
+                    </div>
+
+                </section>
+                <section class="col-5 mx-auto mt-2">
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="FechaNacimiento" class="form-control" placeholder="Fecha de Nacimiento" />
+                        <label asp-for="FechaNacimiento" class="form-label">Fecha de Nacimiento </label>
+                        <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="TrabajoActual" class="form-control" placeholder="Trabajo Actual" />
+                        <label asp-for="TrabajoActual" class="form-label">Trabajo Actual </label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="ExpectativaSalarial" class="form-control" placeholder="Expectativa Salarial" />
+                        <label asp-for="ExpectativaSalarial" class="form-label"> Expectativa Salarial </label>
+                    </div>
+                </section>
+
+                <input type="hidden" asp-for="Id" name="Id" value="@Model.Id" />
+
+                <div class="col-11 mx-auto">
+                    <button type="submit" class="btn btn-primary btn-lg w-100 mt-2">@(editMode ? "Editar" : "Guardar")</button>
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-light w-100 mt-2">Volver atrás</a>
+                </div>
+            </form>
             </div>
         </div>
     </div>

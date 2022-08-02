@@ -1,0 +1,12 @@
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\bin\Release\net5.0\Prueba_Tecnica.Core.Domain.deps.json
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\bin\Release\net5.0\Prueba_Tecnica.Core.Domain.dll
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\bin\Release\net5.0\ref\Prueba_Tecnica.Core.Domain.dll
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\bin\Release\net5.0\Prueba_Tecnica.Core.Domain.pdb
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\obj\Release\net5.0\Prueba_Tecnica.Core.Domain.csprojAssemblyReference.cache
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\obj\Release\net5.0\Prueba_Tecnica.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\obj\Release\net5.0\Prueba_Tecnica.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\obj\Release\net5.0\Prueba_Tecnica.Core.Domain.AssemblyInfo.cs
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\obj\Release\net5.0\Prueba_Tecnica.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\obj\Release\net5.0\Prueba_Tecnica.Core.Domain.dll
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\obj\Release\net5.0\ref\Prueba_Tecnica.Core.Domain.dll
+C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\obj\Release\net5.0\Prueba_Tecnica.Core.Domain.pdb

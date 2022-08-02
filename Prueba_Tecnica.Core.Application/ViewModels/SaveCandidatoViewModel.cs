@@ -12,6 +12,9 @@ namespace Prueba_Tecnica.Core.Application.ViewModels
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Tiene que indicar su cedula")]
+        [RegularExpression(@"^\(?([0-9]{3})\)?([0-9]{3})?([0-9]{5})$",
+            ErrorMessage = "ha introducido un formato invalido para el campo cedula, asegurese de que no tenga guiones, letras ni espacios " +
+            "y que no sea menor ni mayor de 11 digitos. Por favor verificar que cumpla con lo mencionado anteriormente.")]
         public string Cedula { get; set; }
 
         [Required(ErrorMessage = "Tiene que indicar sus nombres")]

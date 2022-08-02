@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Prueba_Tecnica.Core.Domain</id>
+    <version>1.0.0</version>
+    <authors>Prueba_Tecnica.Core.Domain</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\rubi\Desktop\Programacion\Prueba_Tecnica\Prueba_Tecnica.Core.Domain\bin\Release\net5.0\Prueba_Tecnica.Core.Domain.dll" target="lib\net5.0\Prueba_Tecnica.Core.Domain.dll" />
+  </files>
+</package>
