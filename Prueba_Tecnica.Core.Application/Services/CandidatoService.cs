@@ -52,7 +52,7 @@ namespace Prueba_Tecnica.Core.Application.Services
             if (candidate == null)
             {
                 res.HasError = true;
-                res.Error = $"No puede editar un candidato que ya fue eliminado de la base de datos. Por favor volver atras";
+                res.Error = $"No puede editar un candidato que no existe de la base de datos. Por favor volver atras";
                 return res;
             }
 
